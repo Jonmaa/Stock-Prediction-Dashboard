@@ -1,0 +1,35 @@
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data acquisition
+yfinance>=0.2.30
+pandas-datareader>=0.10.0
+fredapi>=0.5.1
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Deep Learning (opcional)
+# tensorflow>=2.13.0
+# torch>=2.0.0
+
+# Feature Engineering
+ta>=0.10.2  # Technical Analysis library
+
+# Model management
+joblib>=1.3.0
+
+# Frontend
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

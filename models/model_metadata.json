@@ -1,0 +1,51 @@
+{
+  "model_type": "LightGBM Classifier",
+  "target": "Target_Direction_1D",
+  "task": "Binary Classification (Up/Down)",
+  "num_features": 107,
+  "training_date": "2026-01-16T11:58:59.606232",
+  "results": {
+    "AAPL": {
+      "accuracy": 0.5205479452054794,
+      "auc": 0.5201232777374909,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "MSFT": {
+      "accuracy": 0.5397260273972603,
+      "auc": 0.5241418902586416,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "NVDA": {
+      "accuracy": 0.4904109589041096,
+      "auc": 0.49100350199251297,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "TSLA": {
+      "accuracy": 0.5123287671232877,
+      "auc": 0.5493693693693694,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "AMZN": {
+      "accuracy": 0.4904109589041096,
+      "auc": 0.508785170873083,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "META": {
+      "accuracy": 0.5232876712328767,
+      "auc": 0.47854954034729313,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    },
+    "GOOGL": {
+      "accuracy": 0.5917808219178082,
+      "auc": 0.5710988276741784,
+      "test_start": "2024-08-01",
+      "test_end": "2026-01-14"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project": "Magnificent 7 Stock Prediction",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "TSLA",
+    "AMZN",
+    "META",
+    "GOOGL"
+  ],
+  "ticker_names": {
+    "AAPL": "Apple",
+    "MSFT": "Microsoft",
+    "NVDA": "NVIDIA",
+    "TSLA": "Tesla",
+    "AMZN": "Amazon",
+    "META": "Meta",
+    "GOOGL": "Google"
+  },
+  "market_indices": [
+    "^GSPC",
+    "^IXIC",
+    "^VIX"
+  ],
+  "start_date": "2018-01-01",
+  "end_date": "2026-01-16",
+  "interval": "1d",
+  "download_date": "2026-01-16 11:27:42",
+  "records_per_stock": {
+    "AAPL": 2021,
+    "MSFT": 2021,
+    "NVDA": 2021,
+    "TSLA": 2021,
+    "AMZN": 2021,
+    "META": 2021,
+    "GOOGL": 2021
+  }
+}

@@ -1,0 +1,8 @@
+Ticker,Name,Sector,Industry,Market Cap ($B),P/E Ratio,52W High,52W Low
+AAPL,Apple Inc.,Technology,Consumer Electronics,3815.4,34.61,288.62,169.21
+MSFT,Microsoft Corporation,Technology,Software - Infrastructure,3394.43,32.46,555.45,344.79
+NVDA,NVIDIA Corporation,Technology,Semiconductors,4554.11,46.3,212.19,86.62
+TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,1458.6,302.46,498.83,214.25
+AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2546.2,33.69,258.6,161.38
+META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,1564.74,27.47,796.25,479.8
+GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,4030.67,32.88,340.49,140.53

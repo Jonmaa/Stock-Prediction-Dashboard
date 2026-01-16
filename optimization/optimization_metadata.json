@@ -1,0 +1,115 @@
+{
+  "best_model": "LightGBM",
+  "best_params": {
+    "num_leaves": 15,
+    "n_estimators": 50,
+    "min_child_samples": 20,
+    "max_depth": 3,
+    "learning_rate": 0.01
+  },
+  "baseline_results": {
+    "Logistic Regression": {
+      "mean_accuracy": 0.5085365853658537,
+      "std_accuracy": 0.02862608437635489,
+      "scores": [
+        0.5457317073170732,
+        0.5213414634146342,
+        0.5182926829268293,
+        0.4603658536585366,
+        0.4969512195121951
+      ]
+    },
+    "Random Forest": {
+      "mean_accuracy": 0.48170731707317077,
+      "std_accuracy": 0.02905153475505267,
+      "scores": [
+        0.4420731707317073,
+        0.5121951219512195,
+        0.5152439024390244,
+        0.4573170731707317,
+        0.4817073170731707
+      ]
+    },
+    "Gradient Boosting": {
+      "mean_accuracy": 0.48658536585365847,
+      "std_accuracy": 0.030279778092524738,
+      "scores": [
+        0.4695121951219512,
+        0.4969512195121951,
+        0.5396341463414634,
+        0.45121951219512196,
+        0.47560975609756095
+      ]
+    },
+    "XGBoost": {
+      "mean_accuracy": 0.4878048780487806,
+      "std_accuracy": 0.029306377660238823,
+      "scores": [
+        0.4634146341463415,
+        0.5274390243902439,
+        0.5152439024390244,
+        0.45121951219512196,
+        0.4817073170731707
+      ]
+    },
+    "LightGBM": {
+      "mean_accuracy": 0.49207317073170725,
+      "std_accuracy": 0.027982424159960405,
+      "scores": [
+        0.5030487804878049,
+        0.524390243902439,
+        0.5152439024390244,
+        0.4573170731707317,
+        0.4603658536585366
+      ]
+    }
+  },
+  "optimized_results": {
+    "LightGBM": {
+      "best_params": "{'num_leaves': 15, 'n_estimators': 50, 'min_child_samples': 20, 'max_depth': 3, 'learning_rate': 0.01}",
+      "best_score": 0.5304878048780488,
+      "baseline_score": 0.49207317073170725
+    },
+    "XGBoost": {
+      "best_params": "{'subsample': 0.8, 'n_estimators': 50, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.01}",
+      "best_score": 0.5280487804878049,
+      "baseline_score": 0.4878048780487806
+    },
+    "Random Forest": {
+      "best_params": "{'n_estimators': 50, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': 10}",
+      "best_score": 0.5018292682926829,
+      "baseline_score": 0.48170731707317077
+    }
+  },
+  "all_stock_results": {
+    "AAPL": {
+      "mean_accuracy": 0.5304878048780488,
+      "std_accuracy": 0.02572563793869391
+    },
+    "MSFT": {
+      "mean_accuracy": 0.5103658536585366,
+      "std_accuracy": 0.03888121601690209
+    },
+    "NVDA": {
+      "mean_accuracy": 0.5170731707317073,
+      "std_accuracy": 0.014116874271695409
+    },
+    "TSLA": {
+      "mean_accuracy": 0.500609756097561,
+      "std_accuracy": 0.031824361830975346
+    },
+    "AMZN": {
+      "mean_accuracy": 0.5073170731707317,
+      "std_accuracy": 0.025332412290050007
+    },
+    "META": {
+      "mean_accuracy": 0.5097560975609756,
+      "std_accuracy": 0.015353266234163637
+    },
+    "GOOGL": {
+      "mean_accuracy": 0.5298780487804878,
+      "std_accuracy": 0.030935733887721546
+    }
+  },
+  "optimization_date": "2026-01-16T12:26:06.218037"
+}

@@ -1,0 +1,33 @@
+{
+  "cleaning_date": "2026-01-16T11:42:38.110513",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "TSLA",
+    "AMZN",
+    "META",
+    "GOOGL"
+  ],
+  "common_trading_days": 2021,
+  "date_range": {
+    "start": "2018-01-02",
+    "end": "2026-01-15"
+  },
+  "outlier_threshold": 3.0,
+  "total_extreme_events": 203,
+  "files_created": [
+    "mag7_close_prices.csv",
+    "mag7_volume.csv",
+    "mag7_returns.csv",
+    "mag7_combined.csv",
+    "outlier_flags.csv",
+    "AAPL_cleaned.csv",
+    "MSFT_cleaned.csv",
+    "NVDA_cleaned.csv",
+    "TSLA_cleaned.csv",
+    "AMZN_cleaned.csv",
+    "META_cleaned.csv",
+    "GOOGL_cleaned.csv"
+  ]
+}

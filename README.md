@@ -213,16 +213,6 @@ This project is for **educational purposes only**.
 - Do not use this for actual trading decisions
 - This is NOT financial advice
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Jonmaa**
-
-- GitHub: [@Jonmaa](https://github.com/Jonmaa)
-
 ## 🙏 Acknowledgments
 
 - [yfinance](https://github.com/ranaroussi/yfinance) for stock data
@@ -233,5 +223,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ❤️ using Python & Streamlit
+  Made using Python & Streamlit
 </p>

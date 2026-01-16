@@ -40,33 +40,14 @@ jobs:
         run: |
           python -c "import ast; ast.parse(open('app/streamlit_app.py').read())"
 
-  build:
+  deploy:
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-      
-      - name: Build Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: false
-          tags: stock-prediction-dashboard:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
-  deploy-streamlit:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    
-    steps:
-      - name: Trigger Streamlit Cloud Deployment
+      - name: Deployment Info
         run: |
-          echo "Streamlit Cloud auto-deploys from main branch"
-          echo "No manual trigger needed"
+          echo "✅ Tests passed!"
+          echo "📦 Streamlit Cloud auto-deploys from main branch"
+          echo "🚀 No manual deployment needed"

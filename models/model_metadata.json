@@ -3,7 +3,7 @@
   "target": "Target_Direction_1D",
   "task": "Binary Classification (Up/Down)",
   "num_features": 107,
-  "training_date": "2026-01-16T11:58:59.606232",
+  "training_date": "2026-01-19T10:01:54.547929",
   "results": {
     "AAPL": {
       "accuracy": 0.5205479452054794,
